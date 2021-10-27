@@ -5,9 +5,9 @@ This framework based on Page Object Model, Selenium, TestNG using Java and Maven
 This framework is implemented following the Page Object Model (POM).
 
 ### libraries used in this framework:
-1. Java
-2. Maven
-3. Selenium
+1. Java (Version 11 or above)
+2. Maven (Latest Maven version)
+3. Selenium 
 4. TestNG
 5. ExtentReport
 6. Log4j
