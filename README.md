@@ -12,7 +12,7 @@ This framework is implemented following the Page Object Model (POM).
 5. ExtentReport
 6. Log4j
 
-### Steps to clone execute the tests:
+### Steps to clone and execute the tests:
 
 1. git clone https://github.com/mdigarse/saucedemo-automation
 2. cd saucedemo-automation
