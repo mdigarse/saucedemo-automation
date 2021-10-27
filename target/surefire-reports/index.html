@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link">
+              <span class="suite-name border-passed">com.saucedemo.qa.testcases.LoginPageTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-com.saucedemo.qa.testcases.LoginPageTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" class="hide-methods passed suite-com.saucedemo.qa.testcases.LoginPageTest"> (hide)</a> <!-- hide-methods passed suite-com.saucedemo.qa.testcases.LoginPageTest -->
+                      <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" class="show-methods passed suite-com.saucedemo.qa.testcases.LoginPageTest"> (show)</a> <!-- show-methods passed suite-com.saucedemo.qa.testcases.LoginPageTest -->
+                    </span>
+                    <div class="method-list-content passed suite-com.saucedemo.qa.testcases.LoginPageTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" title="com.saucedemo.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginWithInValidUserNameAndPasswordTest">loginWithInValidUserNameAndPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" title="com.saucedemo.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginWithLockedOutUserTest">loginWithLockedOutUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" title="com.saucedemo.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginWithValidUserNameAndInvalidPasswordTest">loginWithValidUserNameAndInvalidPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" title="com.saucedemo.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginWithValidUserNameAndPasswordTest">loginWithValidUserNameAndPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" title="com.saucedemo.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginWithoutPasswordTest">loginWithoutPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" title="com.saucedemo.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginWithoutUserNameTest">loginWithoutUserNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" title="com.saucedemo.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="saucedemoLogoImageTest">saucedemoLogoImageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.saucedemo.qa.testcases.LoginPageTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.saucedemo.qa.testcases.LoginPageTest" class="panel com.saucedemo.qa.testcases.LoginPageTest">
+          <div class="suite-com.saucedemo.qa.testcases.LoginPageTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInValidUserNameAndPasswordTest">
+                  </a> <!-- loginWithInValidUserNameAndPasswordTest -->
+                  <span class="method-name">loginWithInValidUserNameAndPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithLockedOutUserTest">
+                  </a> <!-- loginWithLockedOutUserTest -->
+                  <span class="method-name">loginWithLockedOutUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidUserNameAndInvalidPasswordTest">
+                  </a> <!-- loginWithValidUserNameAndInvalidPasswordTest -->
+                  <span class="method-name">loginWithValidUserNameAndInvalidPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidUserNameAndPasswordTest">
+                  </a> <!-- loginWithValidUserNameAndPasswordTest -->
+                  <span class="method-name">loginWithValidUserNameAndPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithoutPasswordTest">
+                  </a> <!-- loginWithoutPasswordTest -->
+                  <span class="method-name">loginWithoutPasswordTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithoutUserNameTest">
+                  </a> <!-- loginWithoutUserNameTest -->
+                  <span class="method-name">loginWithoutUserNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saucedemoLogoImageTest">
+                  </a> <!-- saucedemoLogoImageTest -->
+                  <span class="method-name">saucedemoLogoImageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.saucedemo.qa.testcases.LoginPageTest-class-passed -->
+        </div> <!-- panel com.saucedemo.qa.testcases.LoginPageTest -->
+        <div panel-name="test-xml-com.saucedemo.qa.testcases.LoginPageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;com.saucedemo.qa.testcases.LoginPageTest&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.qa.testcases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- com.saucedemo.qa.testcases.LoginPageTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.saucedemo.qa.testcases.LoginPageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.saucedemo.qa.testcases.LoginPageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.saucedemo.qa.testcases.LoginPageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.saucedemo.qa.testcases.LoginPageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.saucedemo.qa.testcases.LoginPageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.saucedemo.qa.testcases.LoginPageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.saucedemo.qa.testcases.LoginPageTest');
+function tableData_com.saucedemo.qa.testcases.LoginPageTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginWithInValidUserNameAndPasswordTest')
+data.setCell(0, 2, 'com.saucedemo.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 642);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginWithValidUserNameAndPasswordTest')
+data.setCell(1, 2, 'com.saucedemo.qa.testcases.LoginPageTest')
+data.setCell(1, 3, 479);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginWithLockedOutUserTest')
+data.setCell(2, 2, 'com.saucedemo.qa.testcases.LoginPageTest')
+data.setCell(2, 3, 305);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithoutPasswordTest')
+data.setCell(3, 2, 'com.saucedemo.qa.testcases.LoginPageTest')
+data.setCell(3, 3, 246);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginWithValidUserNameAndInvalidPasswordTest')
+data.setCell(4, 2, 'com.saucedemo.qa.testcases.LoginPageTest')
+data.setCell(4, 3, 236);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginWithoutUserNameTest')
+data.setCell(5, 2, 'com.saucedemo.qa.testcases.LoginPageTest')
+data.setCell(5, 3, 221);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'saucedemoLogoImageTest')
+data.setCell(6, 2, 'com.saucedemo.qa.testcases.LoginPageTest')
+data.setCell(6, 3, 68);
+window.suiteTableData['com.saucedemo.qa.testcases.LoginPageTest']= { tableData: data, tableDiv: 'times-div-com.saucedemo.qa.testcases.LoginPageTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-com.saucedemo.qa.testcases.LoginPageTest">
+              </div> <!-- times-div-com.saucedemo.qa.testcases.LoginPageTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.saucedemo.qa.testcases.LoginPageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.saucedemo.qa.testcases.LoginPageTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.saucedemo.qa.testcases.LoginPageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.saucedemo.qa.testcases.LoginPageTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInValidUserNameAndPasswordTest</span>
+                <span class="method-start">2030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown1([TestResult name=loginWithInValidUserNameAndPasswordTest status=SUCCESS method=LoginPageTest.loginWi...)</span>
+                <span class="method-start">2672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginWithLockedOutUserTest</span>
+                <span class="method-start">2674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidUserNameAndInvalidPasswordTest</span>
+                <span class="method-start">2979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown1([TestResult name=loginWithLockedOutUserTest status=SUCCESS method=LoginPageTest.loginWithLockedOutUs...)</span>
+                <span class="method-start">2979 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidUserNameAndPasswordTest</span>
+                <span class="method-start">3215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown1([TestResult name=loginWithValidUserNameAndInvalidPasswordTest status=SUCCESS method=LoginPageTest.lo...)</span>
+                <span class="method-start">3215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginWithoutPasswordTest</span>
+                <span class="method-start">3694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown1([TestResult name=loginWithValidUserNameAndPasswordTest status=SUCCESS method=LoginPageTest.loginWith...)</span>
+                <span class="method-start">3694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginWithoutUserNameTest</span>
+                <span class="method-start">3941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown1([TestResult name=loginWithoutPasswordTest status=SUCCESS method=LoginPageTest.loginWithoutPasswordTe...)</span>
+                <span class="method-start">3941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">saucedemoLogoImageTest</span>
+                <span class="method-start">4162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown1([TestResult name=loginWithoutUserNameTest status=SUCCESS method=LoginPageTest.loginWithoutUserNameTe...)</span>
+                <span class="method-start">4162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4230 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown1([TestResult name=saucedemoLogoImageTest status=SUCCESS method=LoginPageTest.saucedemoLogoImageTest()...)</span>
+                <span class="method-start">4230 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

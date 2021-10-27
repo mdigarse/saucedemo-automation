@@ -1,0 +1,5 @@
+com/saucedemo/qa/pages/LoginPage.class
+com/saucedemo/qa/util/WebEventListener.class
+com/saucedemo/qa/base/TestBase.class
+com/saucedemo/qa/util/TestUtil.class
+com/saucedemo/qa/pages/HomePage.class

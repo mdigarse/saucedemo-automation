@@ -1,0 +1,29 @@
+1. Verify user will be able to login with a valid username and valid password.
+2. Verify a user cannot login with a valid username and an incorrect password.
+3. Verify a user cannot login with a Invalid username and password is secret_sauce
+4. Verify the login page when both the username and password field is blank and Submit button is clicked.
+5. Verify the login page when username field is blank and Submit button is clicked.
+6. Verify the login page when password field is blank and Submit button is clicked.
+7. Verify the error messages for invalid login.
+8. Verify login successful when username and password does not match.
+9. Verify any locked account/user is not able to login
+10. Verify the ‘Remember Me’ functionality.
+11. Verify if the data in password field is either visible as asterisk or bullet signs.
+12. Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+13. Verify the time taken to log in with a valid username and password.
+14. Verify if the font, text color, and color coding of the Login page is as per the standard.
+15. Verify the login page and all its controls in different browsers
+16. Verify if a user should not be allowed to log in with different credentials from the same browser at the same time.
+17. Verify if a user should be able to login with the same credentials in different browsers at the same time.
+18. Verify the timeout functionality of the login session.
+19. Verify the login page by pressing ‘Back button’ of the browser. It should not allow to enter into the system once user is log out.
+20. Verify that the login page is responsive i.e. it should adjust to different screen resolutions and devices.
+21. Verify that as soon as the login page opens, by default the cursor should remain on the username textbox.
+22. Verify that the user is able to navigate or access the different controls by pressing the ‘Tab’ key on the keyboard.
+23. Verify that closing the browser should not log-out an authenticated user. Launching the application should lead the user to login state only.
+24. Verify that once logged in, clicking the back button doesn’t logout the user.
+25. Verify the UserName and Password field is editable and Login button is visible.
+26. Verify the login with problem user
+27. Verify the login with performance_glitch_user
+28. Verify after successful login the product page is loaded successfully.
+29 Verify if the user session is terminated due to timeout, they will be navigated to the login page
